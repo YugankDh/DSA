@@ -10,6 +10,7 @@ void sum_n(int i, int sum){
 
 	sum_n(i-1,sum+i);
 }
+//functional
 int sum_n2(int n2){
  	if(n2==0){
  		return 0;
@@ -28,5 +29,4 @@ int main() {
     return 0;
 }
 
-//functional
 
